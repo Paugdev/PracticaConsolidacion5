@@ -1,0 +1,59 @@
+<html>
+    <head>
+        <link rel="stylesheet" href="./css/css_bootstrap/bootstrap.css">
+        <link rel="stylesheet" href="css/estilos.css">
+        <link rel="shortcut icon" href="./assets/img/favicon.ico" type="image/x-icon">
+        <title>API Star Wars</title>
+    </head>
+    <body onload="asignarEventos()">
+
+        <div class="container">
+            <div class="row">
+                <div class="col-2 bg-dark">
+                            <div class="container">
+                                <div class="row">
+                                    <div class="col-12 colorRojo" id="divPopulares">
+                                        <h4>Populares</h4>
+                                        <p>1-5</p>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-12 colorVerde" id="divSecundarios">
+                                        <h4>Secundarios</h4>
+                                        <p>6-11</p>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-12 colorAzul" id="divOtros">
+                                        <h4>Otros</h4>
+                                        <p>12-17</p>
+                                    </div>
+                                </div>
+
+                            </div>
+                </div>
+                <div class="col-10 bg-info cards">
+
+                    <div id="contenedorCards">
+
+                    </div>
+
+
+
+                </div>
+            </div>
+            <div class="btnContainer">
+                <button id="btnConsumo">Consumir API</button>
+            </div>
+            
+        </div>
+
+
+
+
+
+        
+        <script src="./js/js_bootstrap/bootstrap.bundle.js"></script>
+        <script src="./js/logica.js"></script>
+    </body>
+</html>
