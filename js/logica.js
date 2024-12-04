@@ -64,10 +64,10 @@ const consumirAPIStarWars = (contador, color)=>{
                                     laClaseCirculo = "circuloRojo";
                                     break;
                                 case 'verde':
-                                    laClaseCirculo = "circuloVerde";
+                                    laClaseCirculo = "circuloAzul";
                                     break;
                                 case 'azul':
-                                    laClaseCirculo = "circuloAzul";
+                                    laClaseCirculo = "circuloMorado";
                                     break;
                                 default:
                                     laClaseCirculo = "circuloDefault";
